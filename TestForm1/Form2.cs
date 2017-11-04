@@ -324,6 +324,7 @@ namespace TestForm1
             listLabel[indexLabel].AutoSize = false;
             listLabel[indexLabel].Location = new Point(50, 20);
             listLabel[indexLabel].indexLab = indexLabel;
+            listLabel[indexLabel].TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             listLabel[indexLabel].BringToFront();
 
             this.Controls.Add(listLabel[indexLabel]);
