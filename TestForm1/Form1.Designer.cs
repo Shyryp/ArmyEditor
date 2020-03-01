@@ -31,14 +31,14 @@ namespace TestForm1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Кнопки");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Тексты");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Окна ввода");
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Галочки");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Радио-галочки");
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Картинки статические");
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Картинки перемещаемые");
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Облати перем. картинок");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Кнопки");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Тексты");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Окна ввода");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Галочки");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Радио-галочки");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Картинки статические");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Картинки перемещаемые");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Облати перем. картинок");
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.createFormForTestToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -530,31 +530,31 @@ namespace TestForm1
             this.treeView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.treeView1.Location = new System.Drawing.Point(3, 16);
             this.treeView1.Name = "treeView1";
-            treeNode49.Name = "Buts";
-            treeNode49.Text = "Кнопки";
-            treeNode50.Name = "Labs";
-            treeNode50.Text = "Тексты";
-            treeNode51.Name = "TextsBox";
-            treeNode51.Text = "Окна ввода";
-            treeNode52.Name = "ChecksBox";
-            treeNode52.Text = "Галочки";
-            treeNode53.Name = "RadiosBut";
-            treeNode53.Text = "Радио-галочки";
-            treeNode54.Name = "PicturessStatic";
-            treeNode54.Text = "Картинки статические";
-            treeNode55.Name = "PicturessDinamic";
-            treeNode55.Text = "Картинки перемещаемые";
-            treeNode56.Name = "Pita";
-            treeNode56.Text = "Облати перем. картинок";
+            treeNode1.Name = "Buts";
+            treeNode1.Text = "Кнопки";
+            treeNode2.Name = "Labs";
+            treeNode2.Text = "Тексты";
+            treeNode3.Name = "TextsBox";
+            treeNode3.Text = "Окна ввода";
+            treeNode4.Name = "ChecksBox";
+            treeNode4.Text = "Галочки";
+            treeNode5.Name = "RadiosBut";
+            treeNode5.Text = "Радио-галочки";
+            treeNode6.Name = "PicturessStatic";
+            treeNode6.Text = "Картинки статические";
+            treeNode7.Name = "PicturessDinamic";
+            treeNode7.Text = "Картинки перемещаемые";
+            treeNode8.Name = "Pita";
+            treeNode8.Text = "Облати перем. картинок";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode49,
-            treeNode50,
-            treeNode51,
-            treeNode52,
-            treeNode53,
-            treeNode54,
-            treeNode55,
-            treeNode56});
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5,
+            treeNode6,
+            treeNode7,
+            treeNode8});
             this.treeView1.Size = new System.Drawing.Size(209, 195);
             this.treeView1.TabIndex = 7;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
@@ -729,7 +729,7 @@ namespace TestForm1
             this.tableLayoutPanel12.ColumnCount = 3;
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.28571F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.71429F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 126F));
             this.tableLayoutPanel12.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel12.Controls.Add(this.label6, 0, 1);
             this.tableLayoutPanel12.Controls.Add(this.trackBarWidth, 2, 1);
@@ -773,7 +773,7 @@ namespace TestForm1
             // trackBarWidth
             // 
             this.trackBarWidth.BackColor = System.Drawing.SystemColors.InfoText;
-            this.trackBarWidth.Location = new System.Drawing.Point(74, 34);
+            this.trackBarWidth.Location = new System.Drawing.Point(73, 34);
             this.trackBarWidth.Maximum = 800;
             this.trackBarWidth.Minimum = 10;
             this.trackBarWidth.Name = "trackBarWidth";
@@ -798,7 +798,7 @@ namespace TestForm1
             0,
             0});
             this.textBoxForHeight.Name = "textBoxForHeight";
-            this.textBoxForHeight.Size = new System.Drawing.Size(41, 20);
+            this.textBoxForHeight.Size = new System.Drawing.Size(40, 20);
             this.textBoxForHeight.TabIndex = 6;
             this.textBoxForHeight.Value = new decimal(new int[] {
             50,
@@ -810,7 +810,7 @@ namespace TestForm1
             // trackBarHeight
             // 
             this.trackBarHeight.BackColor = System.Drawing.SystemColors.InfoText;
-            this.trackBarHeight.Location = new System.Drawing.Point(74, 3);
+            this.trackBarHeight.Location = new System.Drawing.Point(73, 3);
             this.trackBarHeight.Maximum = 500;
             this.trackBarHeight.Minimum = 10;
             this.trackBarHeight.Name = "trackBarHeight";
@@ -835,7 +835,7 @@ namespace TestForm1
             0,
             0});
             this.textBoxForWidth.Name = "textBoxForWidth";
-            this.textBoxForWidth.Size = new System.Drawing.Size(41, 20);
+            this.textBoxForWidth.Size = new System.Drawing.Size(40, 20);
             this.textBoxForWidth.TabIndex = 7;
             this.textBoxForWidth.Value = new decimal(new int[] {
             50,

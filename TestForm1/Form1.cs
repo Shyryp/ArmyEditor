@@ -259,6 +259,7 @@ namespace TestForm1
                             child.listLabel[i].Width = newFormForSerializable.seLabel[i].SizeX;
                             child.listLabel[i].Height = newFormForSerializable.seLabel[i].SizeY;
                             child.listLabel[i].Font = new System.Drawing.Font("Microsoft Sans Serif", newFormForSerializable.seLabel[i].fontSize, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            child.listLabel[i].TextAlign = ContentAlignment.MiddleCenter;
                             child.listLabel[i].Location = new Point(newFormForSerializable.seLabel[i].X, newFormForSerializable.seLabel[i].Y);
                             
 
